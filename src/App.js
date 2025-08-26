@@ -13,6 +13,10 @@ function animal_names(v){
 }
 const box1_animals = ['cat', 'dog', 'lion', 'bird'];
 
+function PrintText(props){
+  return <h3>text = {props.text}</h3>
+}
+
 function App() {
   return (
     <div>
@@ -23,6 +27,9 @@ function App() {
       <section>
         {box1_name} <br />
         animal names: {animal_names(box1_animals)}
+      </section>
+      <section>
+        <PrintText text="hello world" />
       </section>
     </div>
 

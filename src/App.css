@@ -3,6 +3,7 @@
 }
 
 /* App.css에서도 body선택자 사용 가능 */
+/* App.css : App.js에 import되면서, 웹팩(Webpack)과 같은 번들러에 의해 최종적으로 <head> 태그의 <style> 블록으로 삽입되기 때문. */
 body{
   background-color: rgba(135, 207, 235, 0.33);
 }
