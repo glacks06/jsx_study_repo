@@ -1,3 +1,12 @@
+*{
+  margin: 0;
+}
+
+/* App.css에서도 body선택자 사용 가능 */
+body{
+  background-color: rgba(135, 207, 235, 0.33);
+}
+
 section{
   margin: 50px 0px;
   background-color: beige;
