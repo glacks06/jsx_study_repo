@@ -3,6 +3,16 @@ import './App.css';
 
 const box1_name = 'box1: variable test';
 
+function animal_names(v){
+  let res = '';
+  for(let i = 0; i < v.length; i += 1){
+    res += v[i];
+    res += ' ';
+  }
+  return res;
+}
+const box1_animals = ['cat', 'dog', 'lion', 'bird'];
+
 function App() {
   return (
     <div>
@@ -11,7 +21,8 @@ function App() {
         <hr />
       </header>
       <section>
-        {box1_name}
+        {box1_name} <br />
+        animal names: {animal_names(box1_animals)}
       </section>
     </div>
 
